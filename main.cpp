@@ -142,8 +142,6 @@ int main() {
         createImageFromFrame(data, width, height, channels, finalScale, false);
 
         delete[] data;
-
-        if (waitKey(1) == 'q') break;
     }
 
     cap.release();
